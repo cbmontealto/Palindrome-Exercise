@@ -1,0 +1,25 @@
+
+public class Primitive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}
+ /*
+   A primitive type is predefined by the language and is named by a reserved keyword.
+   byte -  8-bit signed two's complement integer
+   			minimum value of -128 and a maximum value of 127 (inclusive)
+   short - you can use a short to save memory in large arrays, in situations where the memory savings actually matters
+   int - is a 32-bit signed two's complement integer, which has a minimum value of -231 and a maximum value of 231-1
+   			represent an unsigned 32-bit integer,
+   			represent an unsigned 32-bit integer, which has a minimum value of 0 and a maximum value of 232-1.
+   long - is a 64-bit two's complement integer.
+   			represent an unsigned 64-bit long, which has a minimum value of 0 and a maximum value of 264-1
+   float -  This data type should never be used for precise values, such as currency. 
+   			For that, you will need to use the java.math.BigDecimal class instead. Numbers and Strings covers BigDecimal and other useful classes provided by the Java platform.
+   double -   
+  
+  */

@@ -1,0 +1,24 @@
+
+public class Primitive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte gear;
+		short gear2;
+		int gear3;
+		long gear4;
+		float gear5;
+		double gear6;
+		boolean gear7;
+		char gear8;
+		
+		
+		System.out.println(gear,gear2,gear3,gear4,gear5,gear6,gear8);
+		System.out.prontln(gear7);
+	}
+
+}
+ /*
+   A primitive type is predefined by the language and is named by a reserved keyword.
+   
+  */

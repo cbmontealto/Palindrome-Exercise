@@ -1,0 +1,17 @@
+
+public class Dog {
+	
+	int age;
+	
+	public void about(int a) {
+		System.out.println("This dog is a " + a + " years ols. \n");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog Joey = new Dog();
+		Joey.age = 5;
+		Joey.about(Joey.age);
+	}
+
+}

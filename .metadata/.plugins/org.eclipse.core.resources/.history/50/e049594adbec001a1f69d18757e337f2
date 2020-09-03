@@ -1,0 +1,21 @@
+
+public class Dog {
+	
+	int age;
+	static int numberOfLegs = 4;   // Static Fields or Class Variables - Remain the same when you create a new object
+		
+	public void about(int a) {
+		int ageNextYear = a + 1;
+		System.out.println("This dog is a " + a + " years olds.");
+		System.out.println("All dog have " + numberOfLegs + ".");
+		System.out.println("Next year this dog will turn " + ageNextYear + " years olds.");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog Joey = new Dog();
+		Joey.age = 5;   // Non-Static Variables or Instance Variables
+		Joey.about(Joey.age);
+	}
+
+}

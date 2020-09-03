@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Please enter your word to check!");
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		//String now = checker(str);
+		//System.out.println("Your word is " + checker(str) + ".");
+	}
+
+	public static void checker(String str) {
+		
+		int length = str.length();
+		String reverse = "", ret;
+		for(int i=length - 1; i == 0; i--) {
+			if(reverse == reverse + str.charAt(i) ) {
+				//System.out.println("Your word is a palindrome.");
+				ret = "Your word is a palindrome.";
+			}
+			else {
+				//System.out.printLn("Your word is not a palindrome.");
+				ret = "Your word is not a palindrome.";
+			}
+			//return ret;
+			System.out.println(ret);
+		}
+	}
+}
